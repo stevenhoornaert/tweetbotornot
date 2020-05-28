@@ -81,8 +81,8 @@ extract_features_exp <- function(x) {
         "UberSocial for BlackBerry" %in% .data$source) / .data$n,
       athkarapp = sum_("athkarApp" %in% .data$source) / .data$n,
       mobilewebm2 = sum_("Mobile Web (M2)" %in% .data$source) / .data$n,
-      twitterfeed = sum_("twitterfeed" %in% .data$source) / .data$n, 
-      tweetbotforios = sum_("Tweetbot for iOS" %in% .data$source) / .data$n,
+      twitterfeed = sum_("twitterfeed" %in% .data$source) / .data$n,
+      tweetbotforios = 0,
       tweetcasterforandroid = sum_("TweetCaster for Android" %in% .data$source) / .data$n,
       twitcomcomunidades = sum_(
         "Twitcom - Comunidades " %in% .data$source) / .data$n,
