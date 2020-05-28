@@ -82,7 +82,6 @@ extract_features_exp <- function(x) {
       athkarapp = sum_("athkarApp" %in% .data$source) / .data$n,
       mobilewebm2 = sum_("Mobile Web (M2)" %in% .data$source) / .data$n,
       twitterfeed = sum_("twitterfeed" %in% .data$source) / .data$n,
-      tweetbotforios = 0,
       tweetcasterforandroid = sum_("TweetCaster for Android" %in% .data$source) / .data$n,
       twitcomcomunidades = sum_(
         "Twitcom - Comunidades " %in% .data$source) / .data$n,
