@@ -83,8 +83,7 @@ extract_features_exp <- function(x) {
       mobilewebm2 = sum_("Mobile Web (M2)" %in% .data$source) / .data$n,
       twitterfeed = sum_("twitterfeed" %in% .data$source) / .data$n,
       tweetbotforios = sum_("Tweetbot for iΟS" %in% .data$source) / .data$n,
-      tweetcasterforandroid = sum_(
-        "TweetCaster for Android" %in% .data$source) / .data$n,
+      tweetcasterforandroid = sum_("TweetCaster for Android" %in% .data$source) / .data$n,
       twitcomcomunidades = sum_(
         "Twitcom - Comunidades " %in% .data$source) / .data$n,
       cloudhopper = sum_("Cloudhopper" %in% .data$source) / .data$n,
